@@ -16,10 +16,6 @@
             // .NET 9 versions in Directory.Packages.props, only active when building for .NET 9.
             matchPackageNames: [
                 'AspNet.Security.OAuth.GitHub',
-                '/^Microsoft\\.AspNetCore.*$/',
-                '/^Microsoft\\.Extensions.*$/',
-                'Serilog.AspNetCore',
-                'System.Text.Json',
             ],
             allowedVersions: '<9.0.0',
             matchCurrentVersion: '<9.0.0',
