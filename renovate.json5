@@ -10,7 +10,7 @@
                 'AspNet.Security.OAuth.GitHub',
             ],
             allowedVersions: '<9.0.0',
-            matchCurrentVersion: '<9.0.0',
+            matchCurrentVersion: '/^8\\./',
         },
     ],
     prHourlyLimit: 0,
